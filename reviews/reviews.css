@@ -1,0 +1,59 @@
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient();
+    height: 100vh;
+    background: rgb(22, 22, 44);
+}
+.review{
+    width: ;
+    text-align: center;
+    padding: 50px;
+    background: rgb(15, 15, 15);
+    color: white;
+    border-radius: 10px;
+}
+
+.image img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 5% 0;
+}
+
+#name{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-bottom: 3%;
+    color: red;
+}
+
+.position{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+}
+
+.text{
+    font-size: 16px;
+}
+
+.buttons{
+    padding-top: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background: blue;
+    border: 1px solid wheat;
+}
