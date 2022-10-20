@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
    showReviews()
 })
 
-function showReviews(){
+const showReviews = () => {
     img.src = clients[openingReview].image
     clientName.innerText = clients[openingReview].personName
     title.innerText = clients[openingReview].position
